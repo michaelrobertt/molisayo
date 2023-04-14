@@ -1,0 +1,16 @@
+.maininfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+
+}
