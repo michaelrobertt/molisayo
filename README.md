@@ -1,2 +1,2 @@
 # molisayo
-ayo.so inspirated SPA focused on being responsible with more personal information and interactions
+An SPA inspired by Ayo.so, focused on being responsible with personal information and interactions.
