@@ -24,7 +24,7 @@ function InteractiveKarma() {
   return (
     <div className="karma">
       <div
-        className="b"
+        className="karma"
         role="button"
         tabIndex="0"
         onClick={ fetchDogImage }
