@@ -11,6 +11,128 @@
     justify-content: center;
 }
 
-@media (min-width: 768px) {
+.name {
+    animation: neonAnimName 2s alternate-reverse infinite;
+    color: #ffffff;
+    font-size: 250%;
+}
+@keyframes neonAnimName {
+    from {
+        text-shadow:
+          0 0 12px rgba(255, 0, 24, .7),
+          0 0 42px rgba(255, 0, 24, .7),
+          0 0 102px rgba(255, 0, 24, .7);
+      }
+      to {
+        text-shadow:
+          0 0 7px rgba(255, 0, 24, .7),
+          0 0 22px rgba(255, 0, 24, .7),
+          0 0 62px rgba(255, 0, 24, .7);
+      }
+}
 
+.subname {
+    color: #617475;
+    margin-top: -30px;
+    font-size: 125%;
+    background: rgba(0, 0, 0, 0);
+}
+
+.frase {
+    font-size: 150%;
+    max-width: 90%;
+}
+
+.frase2 {
+    font-size: 150%;
+    max-width: 90%;
+    margin-top: -10px;
+}
+
+.frase3 {
+    animation: neonAnimFrase3 2s alternate-reverse infinite;
+    color: #EB00F7;
+    font-size: 200%;
+}
+@keyframes neonAnimFrase3 {
+from {
+    text-shadow:
+      0 0 10px rgba(235, 0, 247, .3),
+      0 0 40px rgba(235, 0, 247, .3),
+      0 0 100px rgba(235, 0, 247, .3);
+  }
+  to {
+    text-shadow:
+      0 0 5px rgba(235, 0, 247, .3),
+      0 0 20px rgba(235, 0, 247, .3),
+      0 0 60px rgba(235, 0, 247, .3);
+  }
+}
+
+.socials {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .name {
+        animation: neonAnimName 2s alternate-reverse infinite;
+        color: #ffffff;
+        font-size: 500%;
+    }
+    @keyframes neonAnimName {
+        from {
+            text-shadow:
+              0 0 12px rgba(255, 0, 24, .7),
+              0 0 42px rgba(255, 0, 24, .7),
+              0 0 102px rgba(255, 0, 24, .7);
+          }
+          to {
+            text-shadow:
+              0 0 7px rgba(255, 0, 24, .7),
+              0 0 22px rgba(255, 0, 24, .7),
+              0 0 62px rgba(255, 0, 24, .7);
+          }
+    }
+
+    .subname {
+        color: #617475;
+        margin-top: -40px;
+        font-size: 250%;
+    }
+
+    .frase {
+        font-size: 300%;
+        max-width: 90%;
+    }
+
+    .frase2 {
+        font-size: 300%;
+        max-width: 90%;
+        margin-top: -30px;
+    }
+
+    .frase3 {
+        animation: neonAnimFrase3 2s alternate-reverse infinite;
+        color: #EB00F7;
+        font-size: 50px;
+    }
+    @keyframes neonAnimFrase3 {
+    from {
+        text-shadow:
+          0 0 10px rgba(235, 0, 247, .3),
+          0 0 40px rgba(235, 0, 247, .3),
+          0 0 100px rgba(235, 0, 247, .3);
+      }
+      to {
+        text-shadow:
+          0 0 5px rgba(235, 0, 247, .3),
+          0 0 20px rgba(235, 0, 247, .3),
+          0 0 60px rgba(235, 0, 247, .3);
+      }
+    }
+
+    .social {
+        width: 60px;
+        height: 60px;
+    }
 }
